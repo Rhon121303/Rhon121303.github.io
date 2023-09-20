@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: #183D3D; */
+    overflow: hidden;
+}
+nav{
+    background-color: #9A3B3B;  
+    
+}
+ul{
+    display: flex;
+    justify-content:space-between;
+    padding: 1%;
+}
+li{
+    color:#FFF8D6;
+    margin: 1%;
+    font-size: 22px;
+    list-style-type: none;
+}
+li a {
+    color: #F2ECBE;
+}
+a:hover{
+    color: #ffeb89;
+    transition: 2s;
+}
+.container1{
+    width: 100%;
+    display: flex;
+    /* z-index: -2; */
+    background-color: #F2ECBE;
+    /* box-shadow:  20px 12px 40px #000000 inset; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    width: 100%;
+    line-height: 2;
+    display: flex;
+    background-color: #F2ECBE;
+}
+
+.divide{
+    height: 660px;
+    width: 40%;
+    background-color: #F2ECBE;
+    border-top-right-radius: 5pc;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+
+}
+.pic img{
+    width: 600px;
+    margin-bottom: 12%;
+}
+
+.info{
+    background-color: #9A3B3B;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    /* box-shadow:  20px 12px 40px #2d2828 inset; */
+    padding: 5%;
+    padding-top: 12%;
+}
+.info2{
+    background-color: #9A3B3B;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    /* box-shadow:  20px 12px 40px #2d2828 inset; */
+    padding: 5%;
+    padding-top: 6%;
+}
+.info h1{
+    font-size: 4em;
+    color: #ffeb89;
+}
+.info p{
+    color: #FFF8D6;
+    font-size: 24px;
+}
+.info2 h1{
+    font-size: 4em;
+    color: #ffeb89;
+}
+.info2 p{
+    color: #FFF8D6;
+    font-size: 24px;
+}
+a{
+    text-align: end;
+    text-decoration: none;
+    color: #F2ECBE;
+}
+.contacts{
+    position: absolute;
+    bottom: 2%;
+    display: flex;
+    right: -9%;
+    width: 40%;
+    /* background-color: #ffeb89; */
+    /* text-align: end; */
+}
+.imgs{
+    margin-left: 42px;
+}
+.contact{
+    color: #ffeb89;
+    margin-top: 18px;
+}
+.fb{
+    width: 75px;
+}
+.github{
+    width: 36px;
+    height: 36px;
+    margin-top: 7px;
+    border-radius: 100%;
+}
